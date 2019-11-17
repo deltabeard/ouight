@@ -1,0 +1,15 @@
+enum modem_unsol_stat_e {
+	UNKNOWN,
+	RECEIVED_SMS,
+	DST_UPDATED,
+	INCOMING_CALL,
+	NORMAL_POWER_DOWN,
+	UNDERVOLTAGE_POWER_DOWN,
+	UNDERVOLTAGE_WARNING,
+	OVERVOLTAGE_POWER_DOWN,
+	OVERVOLTAGE_WARNING,
+	CHARGEONLY_MODE,
+	READY
+};
+
+enum modem_unsol_stat_e sim800c_process_string(const char *in);
