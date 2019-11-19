@@ -1,5 +1,5 @@
-# Frellular
-Feature phone built with free software.
+# *ouight?*
+*Y**ou** all r**ight** mate?* This is a feature phone built with free software.
 
 ## Requirements
 
