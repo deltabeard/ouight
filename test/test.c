@@ -20,6 +20,7 @@
 void sim800c_unsolicited_test(void)
 {
 	const char *in[] = {
+		"GARBAGE",
 		/* Call waiting. */
 		//"+CCWA: \"" FAKE_TELEPHONE_NUMBER "\",161,\"Fake Number\"",
 		//"+CLIP: \"" FAKE_TELEPHONE_NUMBER "\",\"???\",1,\"Fake Number\",0",
