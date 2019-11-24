@@ -1,3 +1,8 @@
-CFLAGS += -I../inc/ -g3 -Og -std=c99 -Wall -Wextra
+OPT ?= -g3 -Og
+
+# Required build variables
+CFLAGS += $(OPT) -std=c99 -Wall -Wextra
+LDFLAGS += -I../inc/
+
 all: test
 test: test.c ../src/sim800c.c minctest.h
