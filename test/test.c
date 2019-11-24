@@ -3,6 +3,8 @@
 
 #include <stdlib.h>
 
+#include "banned.h"
+
 #define FAKE_TELEPHONE_NUMBER "+447700900407"
 
 /**
