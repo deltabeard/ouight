@@ -92,9 +92,9 @@ static int lfails = 0;
     const int ts = ltests;\
     const int fs = lfails;\
     const clock_t start = clock();\
-    printf("\t%-14s", name);\
+    printf("%-14s\n", name);\
     test();\
-    printf(" pass:%2d   fail:%2d   %4dms\n",\
+    printf("\tpass:%2d   fail:%2d   %4dms\n",\
             (ltests-ts)-(lfails-fs), lfails-fs,\
             (int)((clock() - start) * 1000 / CLOCKS_PER_SEC));\
 } while (0)
@@ -114,7 +114,7 @@ static int lfails = 0;
     ++ltests;\
     if (!(equality)) {\
         ++lfails;\
-        printf("%s:%d ("format " != " format")\n", __FILE__, __LINE__, (a), (b));\
+        printf("\t%s:%d ("format " != " format")\n", __FILE__, __LINE__, (a), (b));\
     }} while (0)
 
 
