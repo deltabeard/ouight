@@ -1,3 +1,9 @@
+/**
+ * Unit tests for ouight project.
+ * Copyright (C) 2019 Mahyar Koshkouei
+ * This program is released under GPLv3 only.
+ */
+
 #include "minctest.h"
 #include "sim800c.h"
 

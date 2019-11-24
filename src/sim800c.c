@@ -1,3 +1,9 @@
+/**
+ * Library to operate the SIM800C modem over UART serial communication.
+ * Copyright (C) 2019 Mahyar Koshkouei
+ * This program is released under GPLv3 only.
+ */
+
 #include "sim800c.h"
 
 #include <string.h>
