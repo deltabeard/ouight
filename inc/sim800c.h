@@ -1,3 +1,5 @@
+#pragma once
+
 enum modem_unsol_stat_e {
 	UNKNOWN,
 	RECEIVED_SMS,
